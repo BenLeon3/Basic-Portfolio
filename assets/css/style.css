@@ -64,6 +64,10 @@ a:visited {
     color: #cccccc;
 }
 
+a:visited:hover {
+	color: #4aaaa5;
+}
+
 #myname {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 17pt;
@@ -204,12 +208,25 @@ input[type=submit]:hover {
 }
 
 #hangman-text-box, #rpg-text-box, #triva-text-box, #rutgers-widget-text-box, #rock-paper-scissors-text-box {
-	clear: both;
-	border: 1px solid #dddddd; 
+	position: absolute; 
 	background-color: #4aaaa5;
 	color: #ffffff;
 	text-align: center;
 	padding: 10px;
+	width: 200px;
+	margin-left: 0px;
 	margin-bottom: 10px;
 	margin-top:  -60px;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+a:hover {
+	color: #cccccc;
+}
+
+a:visited {
+    text-decoration: none;
 }
