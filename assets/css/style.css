@@ -6,49 +6,22 @@
 header {
   background: #ffffff;
   overflow: auto;
-  padding-right: 20%;
+  padding-right: 21%;
   padding-left: 5%;
   color: #777777;
   border: 2px solid #cccccc;
 }
 
-#about {
-
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	padding-top: : 0px;
-	padding-bottom: 0px;
-	padding-right: 20px;
-	padding-left: 20px;
+/* Header buttons and name CSS */
+#about, #portfolio, #contact {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 12pt;
+  padding-right: 20px;
+  padding-left: 20px;
   color: #777777;
-  float: left;
   border-right: 1px solid #cccccc;
   float: right;
-  margin-top: 20px;
-}
-
-#portfolio {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	padding-top: : 0px;
-	padding-bottom: 0px;
-	padding-right: 20px;
-	padding-left: 20px;
-  color: #777777;
-  float: left;
-  border-right: 1px solid #cccccc;
-  float: right;
-  margin-top: 20px;
-}
-
-#contact {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	padding-top: : 0px;
-	padding-bottom: 0px;
-	padding-right: 20px;
-	padding-left: 20px;
-  color: #777777;
-  float: left;
-  float: right;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 a:hover {
@@ -71,45 +44,55 @@ a:visited:hover {
 #myname {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 17pt;
+	font-weight: 900;
 	background: #4aaaa5;
-	padding: 20px;
+	padding: 25px;
 	margin-left: 21%;
 	margin-bottom: 0%;
 	color: white;
 	float: left;
 }
 
+/* background for all pages CSS */
 #background {
 	padding: 20px;
-	padding-bottom: 300px;
+	padding-bottom: auto;
 	overflow: auto;
 	border: 1px solid #dddddd;
 	background-image: url(../images/what-the-hex.png);
 }
 
-#aboutmebackground {
+/* CSS for all middle sections*/
+#aboutmebackground, #contactbackground {
 	background: white;
-	padding: 20px;
-	padding-bottom: 300px;
+	width: 960px;
+	padding: 30px;
+	padding-bottom: auto;
 	margin-left: 20%;
 	margin-right: 20%;
 	margin-top: 20px;
+	margin-bottom: 40px;
 	border: 1px solid #dddddd;
-
 }
 
-#aboutmetitle, #portfoliotitle {
+/* Titles within background CSS */
+#aboutmetitle, #portfoliotitle, #contacttitle {
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 17pt;
+	font-size: 20pt;
 	text-align: left;
 	color: #4aaaa5;
+	padding-bottom: 25px;
+	font-weight: 900;
 	border-bottom: 2px solid #dddddd;
+
 
 }
 
+/* About me section CSS */
 #mypic {
 	float: left;
 	padding-top: 20px;
+	padding-right: 20px;
 }
 
 #aboutmetext {
@@ -126,31 +109,14 @@ a:visited:hover {
 footer {
 	color: white;
 	background: #666666;
-	padding: 20px;
+	padding: 30px;
 	text-align: center;
+	padding-bottom: 5px;
+	font-size: 8pt;
 }
 
 
 /* CSS for Contact Page */
-#contactbackground {
-	background: white;
-	padding: 20px;
-	padding-bottom: 20px;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-top: 20px;
-	border: 1px solid #dddddd;
-}
-
-#contacttitle {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 17pt;
-	text-align: left;
-	color: #4aaaa5;
-	border-bottom: 2px solid #dddddd;
-
-}
-
 #contactbox {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
@@ -161,7 +127,7 @@ input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #cccccc;
-    border-radius: 4px;
+    border-radius: 0px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -173,7 +139,7 @@ input[type=submit] {
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 0px;
     cursor: pointer;
 }
 
@@ -190,14 +156,15 @@ input[type=submit]:hover {
 }
 
 /* Portfolio CSS */
-
 #portfoliobackground {
 	background: white;
-	padding: 20px;
+	width: 960px;
+	padding: 30px;
 	padding-bottom: 600px;
 	margin-left: 20%;
 	margin-right: 20%;
 	margin-top: 20px;
+	margin-bottom: 40px;
 	border: 1px solid #dddddd;
 
 }
